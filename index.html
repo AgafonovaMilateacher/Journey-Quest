@@ -637,7 +637,7 @@ function renderDialogue(stepKey) {
         if (choice.next === 'end') {
           setTimeout(() => {
             choicesArea.innerHTML = `<div class="chat-done">
-              <p>🎉 Great job! You completed the airport dialogue!</p>
+              <p>🎉 Great job! You have successfully checked in!</p>
               <button class="chat-restart-btn" onclick="restartChat()">Start again ↺</button>
             </div>`;
           }, 600);
